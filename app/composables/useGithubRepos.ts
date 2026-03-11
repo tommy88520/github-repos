@@ -17,9 +17,9 @@ export const useGithubRepos = () => {
   const hasMore = ref(true)
   const perPage = 10
 
-  const username = 'torvalds'
+  const username = 'yuaanlin'
   
-  // 使用封裝好的 API
+
   const api = useGithubApi()
 
   const fetchRepos = async (pageNum: number = 1) => {
