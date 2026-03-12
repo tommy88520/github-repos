@@ -5,13 +5,7 @@
       <nav
         class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center"
       >
-        <h1 class="text-2xl font-bold">My App</h1>
-        <div class="space-x-4">
-          <NuxtLink to="/" class="text-blue-600 hover:underline">首頁</NuxtLink>
-          <NuxtLink to="/about" class="text-blue-600 hover:underline"
-            >關於</NuxtLink
-          >
-        </div>
+        <h1 class="text-2xl font-bold">GitHub Repos</h1>
       </nav>
     </header>
 
